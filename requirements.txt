@@ -8,3 +8,4 @@ wheel
 pandas
 plotly_express
 nltk
+tweepy
