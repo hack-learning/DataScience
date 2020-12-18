@@ -1,7 +1,10 @@
-tweepy
+fastapi
+uvicorn
+async-exit-stack 
+async-generator
+textblob
 mysql-connector
 wheel
-textblob
 pandas
 plotly_express
 nltk
