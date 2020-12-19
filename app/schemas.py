@@ -6,7 +6,6 @@ class MyException(Exception):
     pass
 
 class News(BaseModel):
-    
 	title: str
 	overview: str
 	url: str

@@ -8,6 +8,6 @@ from .. import schemas, news_query
 router = APIRouter()
 
 
-@router.get("/news/", response_model=schemas.News)
+@router.get("/news")
 async def get_sentiment():
     return news_query.get_news()
